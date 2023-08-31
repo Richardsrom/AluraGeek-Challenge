@@ -3,7 +3,7 @@
 //Lo que estamos haciendo aqui con el CRUD es GET que es Read que esta leyendo todo mi array que esta en mi db.json
 
 const listaProductos = () => {
-    return fetch("https://fake-api-alura-geek.vercel.app/producto")
+    return fetch("https://fake-api-2-three.vercel.app/producto")
     .then((respuesta) => respuesta.json())//quiero que mi respuesta se transforme a .json()
     .catch((error) => console.log(error));//si hay error que me lo muestre
 };
@@ -11,7 +11,7 @@ const listaProductos = () => {
 //Esta funcion la vamos a utilizar para nuestra screen editProduct.html que vamos a llamar unicamente al producto que queramos cambiar mediante el id
 
 const listarUnProducto = (id) => {
-    return fetch(`https://fake-api-alura-geek.vercel.app/producto/${id}`)
+    return fetch(`https://fake-api-2-three.vercel.app/producto/${id}`)
     .then( (answer) => {
         return answer.json();
     });
@@ -22,7 +22,7 @@ const listarUnProducto = (id) => {
 //Aqui vamos a crear nuestra funcion para crear una card para nuestros productos y lo haremos con el metodo POST que es Update del CRUD
 
 const creaProductos = (name, img, price, category, description) => {
-    return fetch("https://fake-api-alura-geek.vercel.app/producto", {
+    return fetch("https://fake-api-2-three.vercel.app/producto", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ const creaProductos = (name, img, price, category, description) => {
 //PUT / PATCH
 //Aqui vamos a editar nuestro producto
 const alterarProducto = async (name, price, category, description, id) => {
-    return fetch(`https://fake-api-alura-geek.vercel.app/producto/${id}`, {
+    return fetch(`https://fake-api-2-three.vercel.app/producto/${id}`, {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json',
@@ -69,7 +69,7 @@ const alterarProducto = async (name, price, category, description, id) => {
 //DELETE
 //Aqui vamos a eliminar directamente un producto. 
 const deleteProducto = async(id) => {
-    return await fetch(`https://fake-api-alura-geek.vercel.app/producto/${id}`, {
+    return await fetch(`https://fake-api-2-three.vercel.app/producto/${id}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json',
