@@ -138,7 +138,7 @@ btnProductos.addEventListener("click", (event) => {
         productosService
         .creaProductos(name, img, price, category, description)
         .then(respuesta => {
-            window.location.href = '../screens/index.html';
+            window.location.href = '../../index.html';
             console.log(respuesta);
         })
         .catch(error => {

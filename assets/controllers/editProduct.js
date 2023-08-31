@@ -35,6 +35,6 @@ formulario.addEventListener('submit', (event) => {
         id
     )    
     .then( () => {
-        window.location.href = '../screens/index.html';
+        window.location.href = '../../index.html';
     });
 });
