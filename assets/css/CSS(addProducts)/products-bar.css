@@ -1,0 +1,25 @@
+
+.products__bar {
+    position: relative;
+    display: block;
+}
+   
+.products__bar:before, .products__bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+   
+.products__bar:before {
+    left: 50%;
+}
+   
+.products__bar:after {
+    right: 50%;
+}

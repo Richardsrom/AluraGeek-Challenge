@@ -1,0 +1,43 @@
+
+.us__form-textarea {
+    font-size: 1rem;
+    padding: .625rem .625rem .625rem .313rem;
+    display: block;
+    width: 100%;
+    height: 9.125rem;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+    resize: none;
+}
+
+.us__form-textarea:focus {
+    outline: none;
+}
+  
+.us__form-textarea:focus ~ .us__textarea-label, .us__form-textarea:valid ~ .us__textarea-label {
+    top: -1.25rem;
+    font-size: .875rem;
+    color: #5264AE;
+}
+   
+   
+.us__form-textarea:focus ~ .us__bar:before, .us__form-textarea:focus ~ .us__bar:after {
+    width: 50%;
+}
+      
+.us__form-textarea:focus ~ .us__highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+   
+@keyframes inputHighlighter {
+    
+    from {
+     background: #5264AE;
+    }
+   
+    to {
+     width: 0;
+     background: transparent;
+    }
+}

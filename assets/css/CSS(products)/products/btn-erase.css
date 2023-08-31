@@ -1,0 +1,10 @@
+
+.btn__erase {
+    color: #02c4f7;
+    border: none;
+    background: transparent;
+}
+
+.btn__erase:hover {
+    color: #029df7;
+}

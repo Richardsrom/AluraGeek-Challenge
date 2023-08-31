@@ -1,0 +1,19 @@
+
+.header__bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+@media (max-width:520px) {
+    .header__bar {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1020px) {
+    .header__bar {
+        justify-content: space-between;
+    }
+}

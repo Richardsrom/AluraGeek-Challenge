@@ -1,0 +1,17 @@
+
+.us__input-btn {
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+    background: var(--color-white);
+    border: 1px solid var(--color-button-border);
+    color: var(--color-button-text);
+    border-radius: 50rem;
+    transition: .4s;
+}
+
+.us__input-btn:hover {
+    transition: .4s;
+    transform: scale(103%);
+    background: var(--color-button-backgroundForm);
+}

@@ -1,0 +1,10 @@
+
+.various__product-infoLink {
+    color: var(--color-products-link);
+    cursor: pointer;
+    font-size: .875rem;
+}
+
+.various__product-infoLink:hover {
+    color: var(--color-products-linkHover);
+}

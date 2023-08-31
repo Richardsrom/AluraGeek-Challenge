@@ -1,0 +1,10 @@
+
+.btn__edit {
+    color: #02c4f7;
+    border: none;
+    background: transparent;
+}
+
+.btn__edit:hover {
+    color: #029df7;
+}

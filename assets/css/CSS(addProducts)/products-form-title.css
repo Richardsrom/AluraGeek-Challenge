@@ -1,0 +1,8 @@
+
+.products__form-title {
+    font-size: 1.275rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+}

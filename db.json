@@ -1,0 +1,148 @@
+{
+  "producto": [
+    {
+      "name": "Producto XYZ",
+      "img": "../img/starwars/babyYoda.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "1",
+      "category": "starwars"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/starwars/clone.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "2",
+      "category": "starwars"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/starwars/Clonehead.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "3",
+      "category": "starwars"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/starwars/DarthVader.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "4",
+      "category": "starwars"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/starwars/KyloRen.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "5",
+      "category": "starwars"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/starwars/yoda.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "6",
+      "category": "starwars"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/consoles/gameboy.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "7",
+      "category": "consoles"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/consoles/nintendo64.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "8",
+      "category": "consoles"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/consoles/playstation5.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "9",
+      "category": "consoles"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/consoles/switchcontrols.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "10",
+      "category": "consoles"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/consoles/xboxcontrol.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "11",
+      "category": "consoles"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/consoles/xboxseriesX.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "12",
+      "category": "consoles"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/various/atari.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "13",
+      "category": "various"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/various/clock.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "14",
+      "category": "various"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/various/oculus.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "15",
+      "category": "various"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/various/pikachu.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "16",
+      "category": "various"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/various/sonic.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "17",
+      "category": "various"
+    },
+    {
+      "name": "Producto XYZ",
+      "img": "../img/various/switch.png",
+      "price": "3,000",
+      "description": " ",
+      "id": "18",
+      "category": "various"
+    }
+  ]
+}

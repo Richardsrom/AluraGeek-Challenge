@@ -1,0 +1,8 @@
+
+.consoles__products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1.525rem;
+    justify-content: space-between;
+}

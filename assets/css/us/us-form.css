@@ -1,0 +1,7 @@
+
+.us__form {
+    display: flex;
+    flex-direction: column;
+    gap: .875rem;
+    padding: 1rem;
+}

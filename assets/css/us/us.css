@@ -1,0 +1,15 @@
+
+.us {
+    background: var(--color-background-us);
+    display: flex;
+    flex-direction: column;
+    gap: 1.575rem;
+    padding: 1rem;
+}
+
+@media (min-width:1020px) {
+    .us {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

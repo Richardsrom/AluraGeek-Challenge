@@ -1,0 +1,41 @@
+
+.login__input {
+    font-size: 1rem;
+    padding: .625rem .625rem .625rem .313rem;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+}
+
+.login__input:focus {
+    outline: none;
+}
+  
+.login__input:focus ~ .login__input-label, .login__input:valid ~ .login__input-label {
+    top: -1.25rem;
+    font-size: .875rem;
+    color: #5264AE;
+}
+   
+   
+.login__input:focus ~ .login__bar:before, .login__input:focus ~ .login__bar:after {
+    width: 50%;
+}
+      
+.login__input:focus ~ .login__highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+   
+@keyframes inputHighlighter {
+    
+    from {
+     background: #5264AE;
+    }
+   
+    to {
+     width: 0;
+     background: transparent;
+    }
+}

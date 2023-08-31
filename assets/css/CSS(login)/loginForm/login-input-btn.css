@@ -1,0 +1,17 @@
+
+.login__input-btn {
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    background: var(--color-btn-login);
+    border: 1px solid var(--color-button-border);
+    color: var(--color-white);
+    border-radius: .225rem;
+    transition: .4s;
+}
+
+.login__input-btn:hover {
+    transition: .4s;
+    transform: scale(103%);
+    background: var(--color-button-backgroundLogin);
+}

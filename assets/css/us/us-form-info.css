@@ -1,0 +1,7 @@
+
+.us__form-info {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.525rem;
+}

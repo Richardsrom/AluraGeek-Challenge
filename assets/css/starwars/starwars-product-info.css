@@ -1,0 +1,6 @@
+
+.starwars__product-info {
+    font-size: .875rem;
+    font-weight: 300;
+    color: var(--color-product-info);
+}

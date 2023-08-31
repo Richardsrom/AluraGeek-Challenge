@@ -1,0 +1,7 @@
+
+.header__bar-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem .825rem;
+}

@@ -1,0 +1,16 @@
+
+.logoSearch {
+    color: var(--color-magnifying);
+}
+
+.logoSearch2 {
+    color: var(--color-magnifying);
+    position: relative;
+    left: -25px;
+}
+
+@media (max-width:521px) {
+    .logoSearch2 {
+        display: none;
+    }    
+}

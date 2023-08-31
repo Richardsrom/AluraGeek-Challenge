@@ -1,0 +1,25 @@
+
+.login__bar {
+    position: relative;
+    display: block;
+}
+   
+.login__bar:before, .login__bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+   
+.login__bar:before {
+    left: 50%;
+}
+   
+.login__bar:after {
+    right: 50%;
+}

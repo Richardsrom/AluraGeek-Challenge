@@ -1,0 +1,18 @@
+
+.products__btn {
+    width: 43%;
+    margin: 0 0.575rem 0.575rem 1rem;
+    background: var(--color-white);
+    border: 1px solid var(--color-button-border);
+    color: var(--color-button-text);
+    border-radius: 4px;
+    padding: 0.575rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.products__btn:hover {
+    transition: .4s;
+    transform: scale(101%);
+    background: var(--color-button-backgroundHoverLogin);
+}

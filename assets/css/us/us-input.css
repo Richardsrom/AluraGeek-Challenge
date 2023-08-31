@@ -1,0 +1,41 @@
+
+.us__input {
+    font-size: 1rem;
+    padding: .625rem .625rem .625rem .313rem;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+}
+
+.us__input:focus {
+    outline: none;
+}
+  
+.us__input:focus ~ .us__input-label, .us__input:valid ~ .us__input-label {
+    top: -1.25rem;
+    font-size: .875rem;
+    color: #5264AE;
+}
+   
+   
+.us__input:focus ~ .us__bar:before, .us__input:focus ~ .us__bar:after {
+    width: 50%;
+}
+      
+.us__input:focus ~ .us__highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+   
+@keyframes inputHighlighter {
+    
+    from {
+     background: #5264AE;
+    }
+   
+    to {
+     width: 0;
+     background: transparent;
+    }
+}

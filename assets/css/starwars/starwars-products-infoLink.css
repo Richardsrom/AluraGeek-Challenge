@@ -1,0 +1,11 @@
+
+.starwars__product-infoLink {
+    color: var(--color-products-link);
+    cursor: pointer;
+    font-size: .875rem;
+}
+
+.starwars__product-infoLink:hover {
+    color: var(--color-products-linkHover);
+}
+

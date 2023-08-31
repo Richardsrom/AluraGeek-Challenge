@@ -1,0 +1,41 @@
+
+.products__input {
+    font-size: 1rem;
+    padding: .625rem .625rem .625rem .313rem;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+}
+
+.products__input:focus {
+    outline: none;
+}
+  
+.products__input:focus ~ .products__input-label, .products__input:valid ~ .products__input-label {
+    top: -1.25rem;
+    font-size: .875rem;
+    color: #5264AE;
+}
+   
+   
+.products__input:focus ~ .products__bar:before, .products__input:focus ~ .products__bar:after {
+    width: 50%;
+}
+      
+.products__input:focus ~ .products__highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+   
+@keyframes inputHighlighter {
+    
+    from {
+     background: #5264AE;
+    }
+   
+    to {
+     width: 0;
+     background: transparent;
+    }
+}

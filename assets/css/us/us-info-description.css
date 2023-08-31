@@ -1,0 +1,11 @@
+
+.us__info-description {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--color-us-info-description);
+    cursor: pointer;
+}
+
+.us__info-description:hover {
+    color: var(--color-black);
+}

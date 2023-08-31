@@ -1,0 +1,24 @@
+:root {
+    --font: 'Raleway', sans-serif;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-button-border: #4848fa;
+    --color-button-text: #2A7AE4;
+    --color-button-backgroundHoverLogin: #e4e4fa;
+    --color-button-backgroundHover: #0d69e1;
+    --color-button-background: #2A7AE4;
+    --color-products-title: #464646;
+    --color-products-link: #2A7AE4;
+    --color-products-linkHover: #0563de;
+    --color-product-info: #151313;
+    --color-background-us: #eaf2fd;
+    --color-us-info-description: #454242;
+    --color-button-backgroundForm: #f4eefb;
+    --color-btn-login: #2a7ae4;
+    --color-button-backgroundLogin: #354ef6;
+    --color-backgroundProducts: #f4f4f4;
+    --warning-color: #ff0000;
+    --background-inputSearch: #eeeff7;
+    --color-magnifying: #6e6c6c;
+}
+

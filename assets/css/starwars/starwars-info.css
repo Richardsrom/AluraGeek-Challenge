@@ -1,0 +1,26 @@
+
+.starwars__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.starwars__info h3 {
+    color: var(--color-products-title);
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+
+.starwars__info p {
+    color: var(--color-products-link);
+    font-size: .875rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.starwars__info p:hover {
+    color: var(--color-products-linkHover);
+    transition: .4s;
+}

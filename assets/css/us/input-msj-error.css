@@ -1,0 +1,54 @@
+/* Aqui estan todos los styles de los errores de validacion que llamamos con JS */
+
+/* Errores de validacion de la seccion de mandarnos un msj */
+
+
+.input__msj-error {
+    display: none;
+}
+
+.us__group--invalid {
+    margin-bottom: 0.5rem;
+}
+  
+.us__group--invalid .us__input {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+}
+
+.us__group--invalid .us__form-textarea {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+}
+  
+.us__group--invalid .us__input-label {
+    color: var(--warning-color);
+}
+  
+  
+.us__group--invalid .input__msj-error {
+    color: var(--warning-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+/* Errores de validacion de Products Form  */
+
+
+.us__group--invalid .products__input {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+}
+
+.us__group--invalid .products__input-label {
+    color: var(--warning-color);
+}
+
+
+/* Errores de validacion de Login */
+
+
+.us__group--invalid .login__input-label {
+    color: var(--warning-color);
+}

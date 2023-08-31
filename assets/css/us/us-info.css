@@ -1,0 +1,14 @@
+
+.us__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.125rem;
+}
+
+@media (min-width:1020px) {
+    .us__info {
+        align-items: flex-start;
+    }
+}

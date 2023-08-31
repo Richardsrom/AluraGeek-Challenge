@@ -1,0 +1,18 @@
+
+.header__banner-subtitle {
+    color: var(--color-white);
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+@media (min-width:320px) and (max-width:400px) {
+    .header__banner-subtitle {
+        font-size: .775rem;
+    }
+}
+
+@media (min-width:1020px) {
+    .header__banner-subtitle {
+        font-size: 1.5rem;
+    }
+}

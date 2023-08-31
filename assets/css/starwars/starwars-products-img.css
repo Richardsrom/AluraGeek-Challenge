@@ -1,0 +1,22 @@
+
+.starwars__products-img {
+    display: block;
+    max-width: 100%;
+    width: 176px;
+    height: 176px;
+}
+
+@media (max-width:431px) {
+
+    .starwars__products-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width:318px) {
+    .starwars__products-img {
+        width: 130px;
+        height: 130px;
+    }
+}

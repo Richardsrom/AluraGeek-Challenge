@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8221e8f8f7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/header/header-bar.css">
+    <link rel="stylesheet" href="../css/header/header-search.css">
+    <link rel="stylesheet" href="../css/header/header-logo.css">
+    <link rel="stylesheet" href="../css/header/header-logo-name.css">
+    <link rel="stylesheet" href="../css/header/header-logo-control.css">
+    <link rel="stylesheet" href="../css/header/header-button.css">
+    <link rel="stylesheet" href="../css/header/header-button-text.css">
+    <link rel="stylesheet" href="../css/header/header-banner.css">
+    <link rel="stylesheet" href="../css/header/header-banner-title.css">
+    <link rel="stylesheet" href="../css/header/header-banner-subtitle.css">
+    <link rel="stylesheet" href="../css/header/header-banner-button.css">
+    <link rel="stylesheet" href="../css/CSS(login)/header/header-bar-login.css">
+    <link rel="stylesheet" href="../css/CSS(login)/header/header-bar-login.css">
+    <link rel="stylesheet" href="../css/CSS(login)/header/header-btn.css">
+    <link rel="stylesheet" href="../css/CSS(login)/header/header-search-input.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-input.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-input-label.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-input-btn.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-highlight.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-group.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-form.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-form-title.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-form-info.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-form-content.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-form-btn.css">
+    <link rel="stylesheet" href="../css/CSS(login)/loginForm/login-bar.css">
+    <link rel="stylesheet" href="../css/us/us.css">
+    <link rel="stylesheet" href="../css/us/us-logo.css">
+    <link rel="stylesheet" href="../css/us/us-logo-name.css">
+    <link rel="stylesheet" href="../css/us/us-logo-control.css">
+    <link rel="stylesheet" href="../css/us/us-input.css">
+    <link rel="stylesheet" href="../css/us/us-input-btn.css">
+    <link rel="stylesheet" href="../css/us/us-info.css">
+    <link rel="stylesheet" href="../css/us/us-info-description.css">
+    <link rel="stylesheet" href="../css/us/us-highlight.css">
+    <link rel="stylesheet" href="../css/us/us-group.css">
+    <link rel="stylesheet" href="../css/us/us-form.css">
+    <link rel="stylesheet" href="../css/us/us-form-title.css">
+    <link rel="stylesheet" href="../css/us/us-form-textarea.css">
+    <link rel="stylesheet" href="../css/us/us-form-msj.css">
+    <link rel="stylesheet" href="../css/us/us-form-info.css">
+    <link rel="stylesheet" href="../css/us/us-form-content.css">
+    <link rel="stylesheet" href="../css/us/us-form-btn.css">
+    <link rel="stylesheet" href="../css/us/us-bar.css">
+    <link rel="stylesheet" href="../css/us/us-input-label.css">
+    <link rel="stylesheet" href="../css/us/us-textarea-label.css">
+    <link rel="stylesheet" href="../css/us/input-msj-error.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="stylesheet" href="../css/footer/footer-container.css">
+    <link rel="stylesheet" href="../css/footer/footer-name.css">
+    <link rel="stylesheet" href="../css/footer/footer-year.css">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header__bar-login">
+                <a href="index.html">
+                    <div class="header__logo">
+                        <img class="header__logo-control" src="../img/gamecontrol.svg" alt="control">
+                        <img class="header__logo-name" src="../img/AluraGeek.svg" alt="Alura Geek">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="login">
+            <div class="login__form">
+                <h4 class="login__form-title">Iniciar Sesión</h4>
+                 <form class="login__form-content">
+                    <fieldset class="login__form-info">
+                        <div class="login__group us__group">
+                            <input required type="email" name="email" class="login__input us__input inputValidation" data-naruto="email">
+                            <span class="login__highlight"></span>
+                            <span class="login__bar"></span>
+                            <label class="login__input-label">Correo electrónico</label>
+                            <span class="input__msj-error">Este campo no es valido</span>
+                        </div>
+                        <div class="login__group us__group">
+                            <input required type="password" name="password" class="login__input us__input inputValidation" data-naruto="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,12}$">
+                            <span class="login__highlight"></span>
+                            <span class="login__bar"></span>
+                            <label class="login__input-label">Contraseña</label>
+                            <span class="input__msj-error">Este campo no es valido</span>
+                        </div>
+                        <div class="login__form-btn">
+                            <button class="login__input-btn" type="submit">Entrar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section class="us">
+            <div class="us__logo">
+                <img class="us__logo-control" src="../img/gamecontrol.svg" alt="control">
+                <img class="us__logo-name" src="../img/AluraGeek.svg" alt="Alura Geek">
+            </div>
+            <div class="us__info">
+                <p class="us__info-description">Quienes Somos</p>
+                <p class="us__info-description">Política de Privacidad</p>
+                <p class="us__info-description">Programa de fidelidad</p>
+                <p class="us__info-description">Nuestras tiendas</p>
+                <p class="us__info-description">Quiero ser franquiciado</p>
+                <p class="us__info-description">Anúncie aqui</p>
+            </div>
+            <div class="us__form">
+                <h4 class="us__form-title">Hable con nosotros</h4>
+                 <form class="us__form-content">
+                    <fieldset class="us__form-info">
+                        <div class="us__group">
+                            <input type="text" class="us__input" name="nombre" required pattern="[\s\S]{5,40}" data-naruto="nombre">
+                            <span class="us__highlight"></span>
+                            <span class="us__bar"></span>
+                            <label class="us__input-label">Name</label>
+                            <span class="input__msj-error">Este campo no es valido</span>
+                        </div>
+                        <div class="us__group">
+                            <textarea name="message" id="message" cols="30" rows="10" class="us__form-textarea" name="message" required pattern="[\s\S]{20,120}" data-naruto="mensaje"></textarea>
+                            <span class="us__bar"></span>
+                            <label class="us__textarea-label" for="message">Mensaje</label>
+                            <span class="input__msj-error">Este campo no es valido</span>
+                        </div>
+                        <div class="us__form-btn">
+                            <button class="us__input-btn" type="button">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__name">Desarrollado por Charly</p>
+            <p class="footer__year">2023</p>
+        </div>    
+    </footer>
+    <script src="../controllers/login.js"></script>
+</body>
+</html>

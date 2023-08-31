@@ -1,0 +1,17 @@
+
+.logoSearchBtn {
+    position: relative;
+    left: -25px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.logoSearchBtn:active {
+    background: rgb(80, 80, 81);
+}
+
+@media (min-width:521px) {
+    .logoSearchBtn {
+        display: none;
+    }    
+}

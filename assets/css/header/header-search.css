@@ -1,0 +1,9 @@
+
+.header__search {
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    display: none;
+}

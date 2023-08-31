@@ -1,0 +1,7 @@
+
+.consoles__products-list {
+    display: flex;
+    flex-direction: column;
+    gap: .525rem;
+    list-style: none;
+}

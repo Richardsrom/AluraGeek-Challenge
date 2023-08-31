@@ -1,0 +1,10 @@
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: .875rem;
+    padding: 4rem 2rem;
+    background: #f5f7ff;
+    width: 24rem;
+}
+
